@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="동아대학교 스마트그린자원학과 · 대학원 응용생명과학과 바이오자원실험실(김두현 교수). 종자 발아생리·프라이밍, 종자 가공, 유전자원 보존, 유용대사체 연구.">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-title" content="바이오자원실험실">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="바이오자원실험실">
+<meta property="og:title" content="바이오자원실험실 | 동아대학교 김두현 교수 연구실">
+<meta property="og:description" content="종자 발아생리·프라이밍, 종자 가공, 유전자원 보존, 유용대사체 연구 — 동아대학교 스마트그린자원학과 · 대학원 응용생명과학과">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<title>바이오자원실험실 | 동아대학교</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/layout.js"></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="logo" src="img/logo.png" alt="동아대학교">
+      <span class="bt"><span>바이오자원실험실 <em class="en-name">Bioresources Lab</em></span><small>동아대학교 스마트그린자원학과 · 대학원 응용생명과학과</small></span>
+    </a>
+    <button class="burger" aria-label="메뉴" onclick="document.querySelector('.links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="links">
+      <a href="index.html" class="on">Home</a>
+      <a href="professor.html">Professor</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="members.html">Members</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <img class="hero-bg" src="img/hero_bg.jpg" alt="">
+    <div class="hero-txt">
+    <span class="eyebrow">DONG-A UNIVERSITY · BIORESOURCES LAB</span>
+    <h1>종자에서 시작하는<br><span>바이오자원</span> 연구</h1>
+    <p class="lead">종자의 발아·휴면·프라이밍, 종자 코팅 가공, 유전자원의 장기 보존,<br class="dbr"> 그리고 작물 기능성 대사체의 분석과 활용을 연구합니다.</p>
+    <div class="cta">
+      <a class="btn gold" href="research.html">연구 분야 보기</a>
+      <a class="btn ghost" href="publications.html">논문 목록</a>
+    </div>
+    </div>
+    <div class="hero-art"><img src="img/hero_art.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- ABOUT (home) -->
+<section class="blk" id="about">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">About</div><h2>연구실 소개</h2></div></div>
+    <div class="about-txt" id="aboutTxt"></div>
+    <figure class="about-fig" id="aboutFig"></figure>
+
+  </div>
+</section>
+
+<!-- RECRUIT (home) -->
+<section class="blk" id="recruit">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Join Us</div><h2>대학원생 · 학부연구생 모집</h2></div></div>
+    <div class="recruit" id="recruitBox"></div>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="blk" id="news">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">News</div><h2>연구실 소식</h2></div></div>
+    <ul class="news" id="newsList"><li class="n-empty">아직 등록된 소식이 없습니다.</li></ul>
+  </div>
+</section>
+
+<!-- CAREER (home) -->
+<section class="blk" id="career">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Career</div><h2>실험실 졸업 후 진로</h2></div></div>
+    <div class="career">
+      <div class="career-logos">
+        <img src="img/career1.jpg" alt="국책연구기관: 국립산림과학원, 국립생물자원관, 국립종자원, 국립수목원">
+        <img src="img/career2.jpg" alt="종자회사: 팜한농, 농우바이오, 코레곤, 아시아종묘">
+      </div>
+      <div class="career-txt">
+        <div class="cr-item"><h4>기업</h4><p>종자회사·농자재회사</p><span>종자 품질보증, 품질관리, 종자 처리 업무</span>
+          <ul class="tagl" style="margin-top:8px"><li><span>팜한농</span></li><li><span>농우바이오</span></li><li><span>아시아종묘</span></li><li><span>코레곤</span></li></ul></div>
+        <div class="cr-item"><h4>국책연구소</h4><p>연구직·기술직 공무원</p>
+          <ul>
+            <li><b><a href="https://www.forest.go.kr" target="_blank" rel="noopener">산림청</a></b><span class="cv"><a href="https://nifos.forest.go.kr" target="_blank" rel="noopener">국립산림과학원</a> · <a href="https://kna.forest.go.kr" target="_blank" rel="noopener">국립수목원</a> · <a href="https://nfsv.forest.go.kr" target="_blank" rel="noopener">국립산림품종관리원</a></span></li>
+            <li><b><a href="https://www.me.go.kr" target="_blank" rel="noopener">환경부</a></b><span class="cv"><a href="https://www.nibr.go.kr" target="_blank" rel="noopener">국립생물자원관</a> · <a href="https://www.nnibr.re.kr" target="_blank" rel="noopener">국립낙동강생물자원관</a> · <a href="https://www.hnibr.re.kr" target="_blank" rel="noopener">국립호남권생물자원관</a></span></li>
+            <li><b><a href="https://www.mafra.go.kr" target="_blank" rel="noopener">농림축산식품부</a></b><span class="cv"><a href="https://www.seed.go.kr" target="_blank" rel="noopener">국립종자원</a> · <a href="https://www.qia.go.kr" target="_blank" rel="noopener">농림축산검역본부</a></span></li>
+            <li><b><a href="https://www.rda.go.kr" target="_blank" rel="noopener">농촌진흥청</a></b><span class="cv"><a href="https://www.nihhs.go.kr" target="_blank" rel="noopener">국립원예특작과학원</a> · <a href="https://www.naas.go.kr" target="_blank" rel="noopener">국립농업과학원(농업유전자원센터)</a> · <a href="https://www.nics.go.kr" target="_blank" rel="noopener">국립식량과학원</a></span></li>
+          </ul></div>
+        <div class="cr-item"><h4>공공기관</h4>
+          <ul class="tagl"><li><a href="https://www.koagi.or.kr" target="_blank" rel="noopener">한국수목원정원관리원</a></li><li><a href="https://www.bdna.or.kr" target="_blank" rel="noopener">국립백두대간수목원 (시드볼트)</a></li><li><a href="https://www.knps.or.kr" target="_blank" rel="noopener">국립공원공단</a></li><li><a href="https://www.kofpi.or.kr" target="_blank" rel="noopener">한국임업진흥원</a></li><li><a href="https://www.nie.re.kr" target="_blank" rel="noopener">국립생태원</a></li><li><a href="https://www.ipab.or.kr" target="_blank" rel="noopener">국제식물검역인증원</a></li><li><a href="https://www.nonghyup.com" target="_blank" rel="noopener">농협중앙회 (원예종묘)</a></li><li><a href="https://www.koat.or.kr" target="_blank" rel="noopener">한국농업기술진흥원</a></li></ul></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blk" id="cbar">
+  <div class="wrap cbar">
+    <div class="cbar-t">찾아오시는 길</div>
+    <div class="cbar-b">
+      <p>부산광역시 사하구 낙동대로550번길 37 · 동아대학교 승학캠퍼스 생명자원과학대학</p>
+      <p><span>실험실 S09-6405 ☎ 051-200-5745</span><span>교수연구실 S09-6412 ☎ 051-200-7531</span><span>dhkimhort@dau.ac.kr</span></p>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer>© <span id="yr"></span> 바이오자원실험실 (Bioresources Lab) · 동아대학교 스마트그린자원학과 · 대학원 응용생명과학과. 김두현 교수 홈페이지</footer>
+
+<script src="js/common.js"></script>
+<script src="js/home.js"></script>
+<script src="js/news.js"></script>
+</body></html>

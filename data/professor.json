@@ -1,0 +1,98 @@
+{
+  "name": "김두현",
+  "en": "Du Hyun Kim, Ph.D.",
+  "photo": "img/prof.jpg",
+  "position": "동아대학교 스마트그린자원학과 교수\n대학원 응용생명과학과",
+  "contacts": [
+    {
+      "label": "Major",
+      "value": "종자생물학"
+    },
+    {
+      "label": "Office",
+      "value": "S09-6412"
+    },
+    {
+      "label": "Tel",
+      "value": "051-200-7531"
+    },
+    {
+      "label": "Email",
+      "value": "dhkimhort@dau.ac.kr"
+    }
+  ],
+  "links": [
+    {
+      "label": "Library Scholar",
+      "url": "https://dongalibraryscholar.netlify.app/listing_result?keyword=957110"
+    },
+    {
+      "label": "Scopus",
+      "url": "https://www.scopus.com/authid/detail.uri?authorId=55575376400"
+    },
+    {
+      "label": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kim+Du+Hyun%5BAuthor%5D+AND+Dong-A%5BAffiliation%5D"
+    },
+    {
+      "label": "ResearchGate",
+      "url": "https://www.researchgate.net/scientific-contributions/Du-Hyun-Kim-2061731172"
+    }
+  ],
+  "education": [
+    {
+      "yr": "1999",
+      "text": "경희대학교 농학과 박사",
+      "en": ""
+    },
+    {
+      "yr": "1995",
+      "text": "동아대학교 원예학과 석사",
+      "en": ""
+    },
+    {
+      "yr": "1993",
+      "text": "동아대학교 원예학과 학사",
+      "en": ""
+    }
+  ],
+  "career": [
+    {
+      "yr": "2014.09 – 현재",
+      "text": "동아대학교 생명자원산업학과 부교수",
+      "en": ""
+    },
+    {
+      "yr": "2013 – 2014",
+      "text": "미국 농무성 국립유전자원보존센터 (USDA NCGRP)",
+      "en": "USDA National Center for Genetic Resources Preservation, Visiting Scientist"
+    },
+    {
+      "yr": "2005 – 2014",
+      "text": "산림청 국립산림과학원 연구사",
+      "en": ""
+    },
+    {
+      "yr": "2003 – 2005",
+      "text": "농림부 국립식물검역소",
+      "en": ""
+    },
+    {
+      "yr": "2001 – 2003",
+      "text": "미국 캘리포니아주립대 박사후 연구원",
+      "en": "California State Polytechnic University, Dept. of Plant Science"
+    },
+    {
+      "yr": "2000 – 2001",
+      "text": "미국 플로리다주립대 박사후 연구원",
+      "en": "University of Florida, Dept. of Horticulture"
+    }
+  ],
+  "awards": [
+    {
+      "yr": "2020",
+      "text": "동아대학교 최우수 강의 교수상",
+      "en": ""
+    }
+  ]
+}

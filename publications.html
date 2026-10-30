@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="동아대학교 스마트그린자원학과 · 대학원 응용생명과학과 바이오자원실험실(김두현 교수). 종자 발아생리·프라이밍, 종자 가공, 유전자원 보존, 유용대사체 연구.">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-title" content="바이오자원실험실">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="바이오자원실험실">
+<meta property="og:title" content="바이오자원실험실 | 동아대학교 김두현 교수 연구실">
+<meta property="og:description" content="종자 발아생리·프라이밍, 종자 가공, 유전자원 보존, 유용대사체 연구 — 동아대학교 스마트그린자원학과 · 대학원 응용생명과학과">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<title>Publications | 바이오자원실험실 | 동아대학교</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/layout.js"></script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="logo" src="img/logo.png" alt="동아대학교">
+      <span class="bt"><span>바이오자원실험실 <em class="en-name">Bioresources Lab</em></span><small>동아대학교 스마트그린자원학과 · 대학원 응용생명과학과</small></span>
+    </a>
+    <button class="burger" aria-label="메뉴" onclick="document.querySelector('.links').classList.toggle('open')">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="links">
+      <a href="index.html">Home</a>
+      <a href="professor.html">Professor</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html" class="on">Publications</a>
+      <a href="members.html">Members</a>
+      <a href="news.html">News</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- PUBLICATIONS -->
+<section class="blk" id="publications">
+  <div class="wrap">
+    <div class="sec-head"><div><div class="kicker">Publications</div><h2>연구실적</h2></div></div>
+    <div class="tabs" id="pubTabs">
+      <button class="tab on" data-t="papers">논문 <span id="cntPapers"></span></button>
+      <button class="tab" data-t="patents">특허 · 기술이전 <span id="cntPatents"></span></button>
+    </div>
+    <div class="pub-tools" id="pubTools">
+      <label class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="제목, 저자, 저널 검색 (예: priming, seed, stress)">
+      </label>
+      <div class="filters" id="topicFilters" hidden></div>
+    </div>
+    <div class="pub-count" id="pubCount"></div>
+    <div class="pane" id="pane-papers">
+      <p class="src-note">Scopus · Web of Science · KCI 기준 · * 교신저자 · 출처: <a href="https://dongalibraryscholar.netlify.app/listing_result?keyword=957110">Dong-A Library Scholar</a> (2026년 10월 기준)</p>
+      <div id="pubList"></div>
+    </div>
+    <div class="pane" id="pane-patents" hidden>
+      <div class="ach" id="patentList"></div>
+    </div>
+  </div>
+</section>
+
+<section class="blk" id="cbar">
+  <div class="wrap cbar">
+    <div class="cbar-t">찾아오시는 길</div>
+    <div class="cbar-b">
+      <p>부산광역시 사하구 낙동대로550번길 37 · 동아대학교 승학캠퍼스 생명자원과학대학</p>
+      <p><span>실험실 S09-6405 ☎ 051-200-5745</span><span>교수연구실 S09-6412 ☎ 051-200-7531</span><span>dhkimhort@dau.ac.kr</span></p>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer>© <span id="yr"></span> 바이오자원실험실 (Bioresources Lab) · 동아대학교 스마트그린자원학과 · 대학원 응용생명과학과. 김두현 교수 홈페이지</footer>
+
+<script src="js/common.js"></script>
+<script src="js/publications.js"></script>
+</body></html>
