@@ -1,4 +1,4 @@
-# 바이오자원실험실 홈페이지
+# 바이오자원연구실 홈페이지
 
 동아대학교 스마트그린자원학과 · 대학원 응용생명과학과 바이오자원실험실(Bioresources Lab, 김두현 교수) 홈페이지입니다. 사이트 주소: https://donga-bioresources.github.io/lab/
 
